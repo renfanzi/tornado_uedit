@@ -1,0 +1,123 @@
+
+数据挖掘视频网址：去coursera  或者edx上找找看
+
+km115421
+130822199906215406
+迅雷会员：dd112266:2  171012
+
+
+
+
+平台
+
+	http://surtest.zkey.cc/list	
+	http://dataplat.zkey.cc/    账户密码：bestapp密码：zkey1234  18810128785 68905wdhh
+
+{
+cid重复
+缺值
+先220正式站重新生成数据，然后下载数据
+重新生成数据：http://42.62.6.220:4000/api/spss_pid/57ce2eca0f29eb2e258b4586_0_1000
+http://127.0.0.1:5001/app/exis_changelog/58b3aed1606f07bb578b4595   查看版本
+
+127.0.0.1:5001/app/generator_spss/2_57ce2eca0f29eb2e258b4586   下载spss
+
+127.0.0.1:5001/app/generator_excel/8_580db4ab606f07f90f8b48ce_0_2000 下载excel
+
+http://42.62.6.220:4000/api/spss_pid/57de42b80f29eb3e258b45b6_0_1000 查看pid
+
+/app/show_excel_info/".$log."_".$pid."_0_50"  查看详细信息 对应查看版本
+
+
+
+RequestAction().question_action(pid, 100, 0)  与url的相反
+RequestAction().question_action_spss(pid, 100, 0)
+
+request_context 59行本地测试要加个.
+config = Config("{base_path}/config".format(base_path=os.path.abspath('.')))
+
+}
+
+正式mysql
+	10.10.0.24 dataplat dataplat
+
+测试服务器
+	
+	120.131.81.19:22	jiawei	zkey778899
+	测试环境47.92.6.187
+	用户名是yanyan、jiawei
+	密码都是123456
+正式服务器
+	112.126.70.69:31000
+		{	
+		hostname=112.126.70.69
+		port=3306
+		db_name=data_options_test
+		user=datapl
+		pwd=Rome78Uj
+		}
+
+	69服务器,ssh :2288, jiawei Elect98Ki
+svn
+
+	svn://112.126.70.69/datapr
+	user:jiawei passwd:Seanpark83
+
+	svn://47.92.6.187/py/analysis
+	svn://47.92.6.187/py/mongo2mysql
+	svn://47.92.6.187/py/web_services
+	svn://47.92.6.187/py/transfer
+	用户名是root 密码是123456
+
+
+mongodb 112.126.70.69:31000
+	42.62.6.220	root	Vipbjhb5042		port=27017
+
+vpn 	test1 test1234	host=42.62.6.221
+
+
+
+mail
+	
+	http://c2.icoremail.net/coremail/index.jsp
+	lijw	ediaoyan
+	lijw@zkey.cc
+
+
+
+项目管理系统
+	http://120.131.81.190:8000/
+
+	account：jiawei
+	passwd:ediaoyan
+
+	首次进入需要更改密码
+
+gitlab
+
+      ljw  ediaoyan
+
+git
+wangbin@120.131.81.19:/zkey/esurvey
+密码Gmtinter89
+
+
+cgss
+git clone wangbin@120.131.81.19:/zkey/analysis
+
+http://zs.zkey.cc/bigdata
+
+
+
+Zkyy0407
+
+
+# ----------------------------------------
+
+登陆账户：	wo_renafnzi
+游戏昵称：	我当人贩子那儿些年
+常用QQ：	3168546047
+常用邮箱：	3168546047@qq.com
+手机号码：	13321343345
+我的师父信息：	师父游戏昵称：乀月咪丶 | 联系QQ：3135038325
+密码langren8
