@@ -4,9 +4,11 @@ import json
 import base64
 import random
 import urllib
+import urllib.request
 import datetime
 
 from werkzeug.utils import secure_filename
+from common.Base import Config
 
 
 class Uploader:
@@ -130,7 +132,8 @@ class Uploader:
             return
 
     def saveRemote(self):
-        _file = urllib.urlopen(self.fileobj)
+        # _file = urllib.urlopen(self.fileobj)
+        _file = urllib.request.urlopen(self.fileobj)
         self.oriName = self.config['oriName']
         self.fileSize = 0
         self.fileType = self.getFileExt()
@@ -219,10 +222,12 @@ class Uploader:
 
     def getFileInfo(self):
         # 获取当前上传成功文件的各项信息
+        URL = "http://" + str(Config().get_content("img_url")["host"]) + ":" + str(Config().get_content("img_url")["port"])
         filename = re.sub(r'^/', '', self.fullName)
         return {
             'state': self.stateInfo,
-            'url': os.path.join('http://127.0.0.1:8800','static',filename),
+            # 'url': os.path.join('http://127.0.0.1:8800','static',filename),
+            'url': os.path.join(URL,'static',filename),
             'title': self.oriName,
             'original': self.oriName,
             'type': self.fileType,
